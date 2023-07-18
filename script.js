@@ -1,5 +1,6 @@
-function volume_sphere() {
-    //Write your code here
+function volume_sphere(radius) {
+    var volume = (4/3) * Math.PI * Math.pow(radius, 3);
+  console.log(volume);
   
 } 
 
